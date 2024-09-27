@@ -1,4 +1,4 @@
-img {
+.logo {
 
 width: 200px;
 height: auto;
@@ -56,7 +56,9 @@ margin: -38px;
 }
 
 body {
-    background-color: var(--cor-5);
+   background-image: url(Farmarcia-removebg-preview.png);
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .btn {

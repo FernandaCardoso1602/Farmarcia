@@ -8,6 +8,7 @@ function Farmarcia() {
         
 <div class="bgblue">
   <div class="card"> 
+  
   <p className='texto'>
   Estamos extremamente felizes em anunciar que a Farmárcia está sob nova direção e com uma nova marca! Esta mudança representa nosso compromisso renovado em oferecer a você e sua família um atendimento de qualidade excepcional, com uma ampla variedade de produtos e serviços farmacêuticos. <br /> <br />
         O que você pode esperar da nova Farmárcia? <br /> <br />

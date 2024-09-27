@@ -7,7 +7,7 @@ function Header() {
     <div>
 
       <nav className="Header"> 
-        <img src="farmarcia-logo-pq.PNG.png" alt="Imagem da farmácia" />
+        <img className='logo' src="farmarcia-logo-pq.PNG.png" alt="Imagem da farmácia" />
         <p>Bem-vindo a Farmárcia!</p>
 
         <button class="btn">
