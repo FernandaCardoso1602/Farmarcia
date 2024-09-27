@@ -1,30 +1,28 @@
-.Header {
-
-background-color: var(--cor-5);
-color: var(--cor-5);
-
-}
-    
-
 img {
 
 width: 200px;
 height: auto;
-border-radius: 100px;
+border-radius: 200px;
+margin-left: 40px;
+margin-top: 40px;
     
 }
   
 .Header {
     
 background-color: var(--cor-3);
-padding: 10px;
+padding: 8px;
 color: var(--cor-5);
+justify-content: flex-end;
+margin: -38px;
+
+
   
 }
 
 .body p {
 
-    color: var(--cor-5);
+    color: var(--cor-2);
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: var(--cor-2);
@@ -36,7 +34,7 @@ color: var(--cor-5);
 }
 
 .Header p{
-    color: var(--cor-5);
+    color: var(--cor-2);
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: var(--cor-2);
@@ -44,13 +42,69 @@ color: var(--cor-5);
     margin-left: 6%;
     position: relative;
     top: -80px;
+    font-size: 40px;
+}
+
+.texto {
+
+    color: var(--cor-1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80px;
     font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
-
-div {
-    background-color: var(--cor-6);
+body {
+    background-color: var(--cor-5);
 }
+
+.btn {
+    border: none;
+    width: 15em;
+    height: 5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: var(--cor-4);
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+    margin-left: 85%;
+    margin-top: -70px;
+
+
+  }
+  
+  .sparkle {
+    fill: var(--cor-2);
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: var(--cor-2);
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,var(--cor-6), var(--cor-3));
+    box-shadow: inset 0px 1px 0px 0px var(--cor-5),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px var(--cor-5),
+    0px 0px 180px 0px var(--cor-3);
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 
 
 :root{
     --cor-1: #e23e57;

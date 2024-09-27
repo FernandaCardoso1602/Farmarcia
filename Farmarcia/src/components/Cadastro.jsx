@@ -1,7 +1,7 @@
 import React from 'react'
 import './Farmarcia.css'
 
-function Farmarcia() {
+function Cadastro() {
   return (
    
         <div>
@@ -35,4 +35,4 @@ function Farmarcia() {
   )
 }
 
-export default Farmarcia;
+export default Cadastro;
