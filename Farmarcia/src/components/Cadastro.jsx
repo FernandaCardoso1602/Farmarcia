@@ -4,22 +4,12 @@ import './Farmarcia.css'
 function Cadastro() {
   return (
    
-        <div>
+   <div>
         
-<div class="bgblue">
-  <div class="card"> 
+
   
   </div>
-</div>
 
-       
-        
-       
-        </div>
-        
-     
-       
-    
   )
 }
 
