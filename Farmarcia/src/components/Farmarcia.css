@@ -73,11 +73,12 @@ body {
     background: var(--cor-4);
     cursor: pointer;
     transition: all 450ms ease-in-out;
+    padding-left: 1%;
+    padding-top: -90px;
     margin-left: 85%;
-    margin-top: -70px;
-
-
+    margin-top: -60px;
   }
+
   
   .sparkle {
     fill: var(--cor-2);
@@ -107,6 +108,36 @@ body {
     fill: white;
     transform: scale(1.2);
   } 
+
+ 
+button {
+  background-color: var(--cor-2);
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 20%;
+  border-radius: 1rem;
+  color: var(--cor-6);
+  box-shadow: 0 0.4rem var(--cor-5);
+  cursor: pointer;
+ }
+ 
+ button:active {
+  color: var(--cor-2);
+  box-shadow: 0 0.2rem var(--cor-5);
+  transform: translateY(0.2rem);
+ }
+ 
+ button:hover:not(:disabled) {
+  background: var(--cor-6);
+  color: var(--cor-2);
+ 
+ }
+ 
+ button:disabled {
+  cursor: auto;
+  color: var(--cor-5);
+ }
 
 :root{
     --cor-1: #e23e57;
